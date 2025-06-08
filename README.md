@@ -12,7 +12,7 @@
 
 ## Overview:
 
-This tutorial demonstrates how to build cognitive AI systems using multimodal models[1], Retrieval-Augmented Generation (RAG)[2], and agentic workflows[3]. Attendees will learn to fine-tune models like BridgeTower[4], store embeddings in vector databases, and integrate large vision-language models such as LLaVA[5]for video-based chat. Using OpenVINO[6], models are optimized for low-latency inference on AI PCs. Tools like LlamaIndex and LangChain enable efficient retrieval, while agentic workflows add reasoning and dynamic tool use. Through hands-on examples, participants will see how to apply this pipeline to real-world scenarios—like video Q&A, personalized shopping, and education—showcasing the potential of scalable, context-aware cognitive AI.
+This tutorial demonstrates how to build cognitive AI systems using multimodal models[1], Retrieval-Augmented Generation (RAG)[2], and agentic workflows[3]. Attendees will learn how to prepare an Instruction dataset [4] for model fine-tuning, with LLMs deployed and accelerated with OpenVINO on your local machines, to protect your data privacy.You will also learn to fine-tune embedding models like BridgeTower[5] and vision language models (VLMs) like Llama-3.2-11B-Vision-Instruct [6], store embeddings in vector databases, and integrate VLM for video-based chat. Using OpenVINO[7], models are optimized for low-latency inference on AI PCs. Tools like LlamaIndex and LangChain enable efficient retrieval, while agentic workflows add reasoning and dynamic tool use. Through hands-on examples, participants will see how to apply this pipeline to real-world scenarios—like video Q&A, personalized shopping, and education—showcasing the potential of scalable, context-aware cognitive AI.
 
 
 ## Outline
@@ -33,8 +33,10 @@ All Modules will be evaluate and deployed in an AI PC or edge system. Multiple C
 
 [3] Z. Durante, et al., Agent AI: Surveying the Horizons of Multimodal Interaction", arXiv:2401.03568 Available online: arXiv [Accessed 10 December 2024]. 
 
-[4] X. Xu, et al., “BridgeTower: Building Bridges Between Encoders in Vision-Language Representation Learning ”, arXiv:2206.08657 Available online: arXiv [Accessed 9 December 2024].
+[4] C. Li, et al., “LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day”, arXiv: 2306.00890 Available online: arXiv [Accessed 12 December 2024].
 
-[5] Intel Corporation, “Intel/llava-llama-3-8b,” Intel corporation, 2024. Available online: llava-llama-3-8b [Accessed 11 December 2024]. 
+[5] X. Xu, et al., “BridgeTower: Building Bridges Between Encoders in Vision-Language Representation Learning ”, arXiv:2206.08657 Available online: arXiv [Accessed 9 December 2024].
 
-[6] openvino.ai 
+[6] Llama-3.2-11B-Vision-Instruct: https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct. 
+
+[7] openvino.ai 
